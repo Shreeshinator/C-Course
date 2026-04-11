@@ -9,8 +9,9 @@ int main() {
     int min = 1;
     int max = 100;
 
-    int randomNumber = rand() % max + min; // Generate a random number between 1 and 100
+    int randomNumber = (rand() % (max - min + 1)) + min; // Generate a random number between 1 and 100
     printf("Generated random number: %d\n", randomNumber);
 
     return 0;
+
 }
