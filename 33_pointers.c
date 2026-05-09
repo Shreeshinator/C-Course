@@ -4,7 +4,9 @@
 int main(){
     int a = 10;
     int *ptr = &a; // ptr is a pointer to an integer, storing the address of a
-
+    //referencing means getting the address of a variable using the & operator symbolized by the & operator
+    //dereferencing means accessing the value at the address stored in the pointer symbolized by the * operator
+    
     printf("Value of a: %d\n", a); // Output: 10
     printf("Address of a: %p\n", (void*)&a); // Output: Address of a
     printf("Value stored in ptr (address of a): %p\n", (void*)ptr); // Output: Address of a

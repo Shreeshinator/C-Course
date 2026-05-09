@@ -1,14 +1,14 @@
 //arrays of structures
 #include <stdio.h>
 
-typedef struct {
+ struct Car {
     char model[50];
     int year;
     int price;
-} Car;
+};
 
 int main() {
-    Car cars[3] = {
+    struct Car cars[3] = {
         {"Ford Mustang", 2020, 35000},
         {"Corvette", 2019, 68000},
         {"Challenger", 2021, 29000}
