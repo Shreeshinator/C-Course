@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(){
-
+int main() {
     printf("Hello world!\n");
-    printf("Took me an unhealthy amount of time to set up this IDE 😭\n");
-    printf("my first program");
+    printf("IDE setup test\n");
+    printf("my first program\n");
+    //this is a test
     return 0;
 }
